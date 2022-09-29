@@ -70,3 +70,9 @@ nav li a {
 nav li a i {
   font-size: 20px;
 }
+
+/* main visual */
+.mv img {
+  min-height: 250px;
+  object-fit: cover;
+}
