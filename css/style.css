@@ -76,3 +76,31 @@ nav li a i {
   min-height: 250px;
   object-fit: cover;
 }
+
+/* goods */
+.goods {
+  padding-top: 50px;
+}
+
+.goods ul {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.goods ul li h3 {
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 300px;
+  background-color: #000;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+}
